@@ -28,10 +28,6 @@ SoundFlow is a deep learning-based system designed to comprehensively understand
 │   ├── 4_Audio_Recommender.ipynb                # Nearest neighbor recommendation
 │   ├── 5_Music_Generator.ipynb                  # Conditional music generation
 │
-├── data/
-│   ├── audio/                                   # Audio files (.wav)
-│   └── examples.json                            # Metadata from NSynth
-│
 ├── README.md                                    # Project documentation
 └── .gitignore
 ```
@@ -41,6 +37,10 @@ SoundFlow is a deep learning-based system designed to comprehensively understand
 NSynth Dataset: An audio dataset from Google's Magenta project containing over 300,000 musical notes with rich labels like pitch, instrument family, source, and qualities. We sampled 4,096 audio clips for training and evaluation in this project.
 
 Reference: https://drive.google.com/drive/folders/1SLvylh43clwYBra7qpypPmSmuhmalOZv?usp=drive_link
+
+├── data/
+│   ├── audio/                                   # Audio files (.wav)
+│   └── examples.json                            # Metadata from NSynth
 
 ## Key Techniques
 
