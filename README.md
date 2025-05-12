@@ -38,9 +38,11 @@ NSynth Dataset: An audio dataset from Google's Magenta project containing over 3
 
 Reference: https://drive.google.com/drive/folders/1SLvylh43clwYBra7qpypPmSmuhmalOZv?usp=drive_link
 
+```
 ├── data/
 │   ├── audio/                                   # Audio files (.wav)
 │   └── examples.json                            # Metadata from NSynth
+```
 
 ## Key Techniques
 
